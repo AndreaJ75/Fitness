@@ -9,9 +9,7 @@ public class MenuDisplayCreation {
 
     public static String menuACreer(ArrayList menuP, ArrayList menuV) {
 
-        List test = Arrays.asList("1","2","3");
-
-        String choiceSelected = " ";
+        String choiceSelected;
         Scanner sc = new Scanner(System.in);
         do {
             int i = 0;
@@ -23,8 +21,8 @@ public class MenuDisplayCreation {
             System.out.println(" ");
             System.out.println(" Choix de Menu : ");
             choiceSelected = sc.nextLine();
-        } while (!(menuV.equals(test)));
-    return choiceSelected;
+        } while (!(menuV.contains(choiceSelected)));
+     return choiceSelected;
 
     }
 }

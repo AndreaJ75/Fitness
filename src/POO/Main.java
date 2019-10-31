@@ -32,23 +32,8 @@ public class Main {
         // Depending on Menu Choice, process :
         // ************************************
 
-        String choiceSelected = " ";
-        //Scanner sc = new Scanner(System.in);
-
-        MenuDisplayCreation.menuACreer(menuP, menuV);
+        String choiceSelected = MenuDisplayCreation.menuACreer(menuP, menuV);
 //
-//        do {
-//            int i = 0;
-//            while (i < menuP.size()) {
-//                System.out.println(menuP.get(i));
-//                i = i + 1;
-//            }
-//            // Choix de Menu
-//            System.out.println(" ");
-//            System.out.println(" Choix de Menu : ");
-//            choiceSelected = sc.nextLine();
-//        } while (!(choiceSelected.equals("1") || choiceSelected.equals("2") || choiceSelected.equals("3")));
-
         switch (choiceSelected) {
             case "1":
                 // *********************************************************************************************
